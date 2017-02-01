@@ -1,4 +1,6 @@
 {
   "name": "groupby-client",
-  "dependencies": {}
+  "dependencies": {
+    "theon": "registry:npm/theon#0.1.28+20170201211546"
+  }
 }
