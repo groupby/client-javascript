@@ -19,7 +19,7 @@ const commands = module.exports = restart(start, {
   srcFiles: 'src/index.ts',
   outDir: 'dist/',
   compile: typescript,
-  coverage: () => () => Promise.resolve()
+  report: () => () => Promise.resolve()
 });
 
 commands.test = () => start(
