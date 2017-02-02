@@ -4,6 +4,9 @@
   "description": "JavaScript client for GroupBy services",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "repository": "https://github.com/groupby/client-javascript",
   "author": "Ben Teichman",
   "scripts": {
@@ -15,6 +18,11 @@
   "release": {
     "verifyConditions": "condition-circle"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^3.4.34",
@@ -23,6 +31,7 @@
     "babel-preset-start": "^0.1.0",
     "chai": "^3.5.0",
     "condition-circle": "^1.5.0",
+    "cz-conventional-changelog": "^1.2.0",
     "husky": "^0.13.0",
     "mocha": "^3.2.0",
     "re-start": "^1.2.0",
@@ -31,10 +40,9 @@
     "start": "^5.1.0",
     "start-babel-cli": "^4.0.1",
     "start-clean": "^2.0.0",
-    "start-concurrent": "^0.1.0",
     "start-env": "^3.0.0",
     "start-files": "^2.0.0",
-    "start-input-connector": "^0.2.0",
+    "start-istanbul": "^3.0.0",
     "start-mocha": "^3.0.0",
     "start-pretty-reporter": "^0.3.0",
     "start-read": "^0.3.0",
@@ -48,6 +56,9 @@
   },
   "dependencies": {
     "dot-prop": "^4.1.0",
+    "groupby-client-core": "^1.0.1",
+    "sayt-client": "^1.0.0",
+    "searchandiser-client": "^1.0.0",
     "theon": "^0.1.28"
   }
 }
