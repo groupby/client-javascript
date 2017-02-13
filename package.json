@@ -26,14 +26,13 @@
   "devDependencies": {
     "@types/chai": "^3.4.34",
     "@types/mocha": "^2.2.38",
-    "babel-preset-start": "^0.1.0",
     "chai": "^3.5.0",
     "condition-circle": "^1.5.0",
     "cz-conventional-changelog": "^1.2.0",
     "husky": "^0.13.0",
     "mocha": "^3.2.0",
     "re-start": "^1.8.1",
-    "start-babel-cli": "^4.0.1",
+    "start-simple-cli": "^4.1.1",
     "tslint-config-groupby": "^1.0.0"
   },
   "dependencies": {
