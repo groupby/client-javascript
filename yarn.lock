@@ -2557,9 +2557,9 @@ rc@^1.0.1, rc@^1.1.6, rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
-re-start@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/re-start/-/re-start-1.8.0.tgz#74b64eb2cbefd24b0d229fa311f0870f8f5733c0"
+re-start@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/re-start/-/re-start-1.8.1.tgz#de7f65169af903efe9616c3d9d05f2ef395d04fd"
   dependencies:
     start "^5.0.0"
     start-babel "^3.0.0"
